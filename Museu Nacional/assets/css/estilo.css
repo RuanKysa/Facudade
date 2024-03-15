@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    background-color: #F4F2EC;
+}
+
+
+header{
+    height: 300px;
+    background-color: #252217;
+}
+
+.nav-cima{
+    width: 50px;
+    margin-left: 650px;
+}
+
+
+header nav ul{
+    display: flex;
+    float: right;
+    list-style-type: none;
+    margin-right:300px ;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #7E5C0A;
+    padding: 7px;
+    text-transform: uppercase;
+}
+
+.logo{
+    margin-left:70px ;
+}
+.img-museu{
+    width: 890px;
+    
+}
+
+.img-depoimento{
+    width: 460px;
+    height: 400px;
+    margin-left: 10px;
+}
+
+.navegacao{
+    height: 60px;
+    display: flex;
+}
+
+.imagens{
+    margin-top: 5px;
+    padding-right: 400px;
+    padding-top: 70px;
+    width: 1000px;
+    height: 425px;
+    margin-left: 150px;
+    display: flex;
+    text-align: center;
+}
+
+.museu{
+    margin-left: 0;
+
+}
+
+.logo{
+    padding-top: 20px;
+}
+
+.nav-cima{
+    height: 20px;
+    padding-top: 40px;
+    padding-left: 800px;
+}
+
+main{
+    margin-top: 260px;
+    height: 650px;
+    margin-left: 150px;
+    margin-right: 400px;
+}
+
+.conteudo{
+    display: flex;
+}
+
+.conteudo h4{
+    color: #227115;
+    text-transform: uppercase;
+}
+
+.conteudo li{
+    color: #C69758;
+}
+
+.conteudo a{
+    text-decoration: none;
+    color: #AF680B;
+}
+
+.youtube{
+    width: 440px;
+    height: 650px;
+}
+
+.youtube h4{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.exposicoes{
+    padding-left: 30px;
+}
+
+.mapa{
+    margin-left: 10px;
+    width: 440px;
+    height: 650px;
+}
+
+.mapa h4{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.historia{
+    padding-left: 30px;
+    width: 380px;
+}
+
+.conteudo-lateral{
+    width: 445px;
+    margin-left: 10px;
+}
+
+.visita{
+    width: 445px;
+    height: 200px;
+    background-color: #CDC8B1;
+}
+
+.conteudo-lateral h4{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.data-txt{
+    padding-left: 50px;
+}
+
+.data{
+    width: 80px;
+}
+
+.qtd{
+    width: 30px;
+}
+
+button{
+    height: 50px;
+    width: 350px;
+    margin-left: 40px;
+    margin-top: 20px;
+    color: #F4F2EC;
+    background-color: #9B9271;
+}
+
+.galeria{
+    background-color: #EBE7DD;
+    height: 450px;
+    flex-wrap: wrap;
+}
+
+.fotos{
+    width: 445px;
+    height: 380px;
+    padding-top: 20px;
+}
+
+.img_foto1{
+    position: absolute;
+    left: 1126px;
+    top: 838px;
+   
+}
+
+.img_foto2{
+    position: absolute;
+    left: 1126px;
+    top: 989px;
+    
+}
+
+.img_foto3{
+    position: absolute;
+    left: 1322px;
+    top: 838px;
+}
+
+.img_foto4{
+    position: absolute;
+    left: 1322px;
+    top: 989px;
+}
+
+.img-1{
+    width: 130px;
+    height: 130px;
+    float: right;
+    margin-right: 60px;
+}
+
+
+
+.img-2{
+    width: 130px;
+    height: 130px;
+    margin-left: 60px;
+}
+
+.img-3{
+    width: 130px;
+    height: 130px;
+    float: right;
+    margin-right: 60px;
+    margin-top: 20px;
+}
+
+.img-4{
+    width: 130px;
+    height: 130px;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+footer{
+    height: 150px;
+    width: 1350px;
+    margin-left: 150px;
+    
+}
+
+.img-rodape{
+    padding-left: 350px ;
+}
+
+footer nav ul{
+    display: flex;
+    float: right;
+    list-style-type: none;
+    margin-right:455px ;
+}
+
+footer nav a{
+    text-decoration: none;
+    color: #7E5C0A;
+    padding: 7px;
+    text-transform: lowercase;
+}
+
+.final{
+    color: #B77724;
+}
+
+footer p{
+    padding-top:30px ;
+    text-align: center;
+}
+
+a:hover{
+    color: #C69758;
+}
+
+
+
