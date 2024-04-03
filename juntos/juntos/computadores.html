@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RDR Vendas</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="assets/css/estilo.css">
+</head>
+
+<body>
+    <header class="inicial">
+        <div>
+            <img src="assets/imagens/Logo.png" alt="">
+        </div>
+        <div class="divBusca">
+            <i class="bi bi-search lupa"></i>
+            <input class="pesquisa" type="text" id="txtBusca" placeholder="Buscar produtos..." />
+        </div>
+
+        <div class="botoes botoes-nav">
+            <i class="bi bi-list opcoes"></i>
+            <button class="categoria">Categoria <i class="bi bi-tags"></i>
+                <ul>
+                    <li><a href="veiculos.html">Carros</a></li>
+                    <li><a href="computadores.html">Computadores</a></li>
+                    <li><a href="roupas.html">Roupas</a></li>
+                    <li><a href="variados.html">Variados</a></li>
+                </ul>
+            </button>
+            <button>Vender <i class="bi bi-cash"></i></button>
+            <button onclick="carrinho()">Carrinho<i class="bi bi-cart4"></i></button>
+            <button class="perfil">Perfil <i class="bi bi-person-fill"></i>
+                <ul>
+                    <li><a href="index.html">Sair</a></li>
+                </ul>
+            </button>
+        </div>
+    </header>
+    <main>
+        <section id="texte">
+            <div class="column-a">
+                <h2>Notebook Legion Slim 5i</h2>
+                    <img class="img" src="assets/imagens/Computadores/not.avif" alt="">
+                    <h3>Valor R$6.687,99</h3>
+                    <p><strong>Descrição:</strong> Produto de qualidade</p>
+                    <button><strong>Comprar Agora!</strong></button>
+            </div>
+            <div class="column-a">
+                <h2>Computador Completo</h2>
+                    <img class="img" src="assets/imagens/Computadores/pc.webp" alt="">
+                    <h3>Valor R$1.275,40</h3>
+                    <p><strong>Descrição:</strong>Intel Core I5 16gb...</p>
+                    <button><strong>Comprar Agora!</strong></button>
+            </div>
+            <div class="column-a">
+                <h2>PC Gamer Completo</h2>
+                    <img class="img" src="assets/imagens/Computadores/pc.1.png" alt="">
+                    <h3>Valor R$3.009,90</h3>
+                    <p><strong>Descrição:</strong>+ Cadeira, Neologic - NLI83469</p>
+                    <button><strong>Comprar Agora!</strong></button>
+            </div>
+            <div class="column-a">
+                <h2>Acer Nitro 5</h2>
+                <img class="img" src="assets/imagens/Computadores/nitro.1.webp" alt="">
+                <h3>Valor R$5.224,05</h3>
+                <p><strong>Descrição:</strong>Ryzen 5,8GB,RTX 3050...</p>
+                <button><strong>Comprar Agora!</strong></button>
+            </div>
+            <div class="column-a">
+                <h2>Notebook Legion Slim 5i</h2>
+                    <img class="img" src="assets/imagens/Computadores/not.avif" alt="">
+                    <h3>Valor R$6.687,99</h3>
+                    <p><strong>Descrição:</strong> Produto de qualidade</p>
+                    <button><strong>Comprar Agora!</strong></button>
+            </div>
+            <div class="column-a">
+                <h2>Computador Completo</h2>
+                    <img class="img" src="assets/imagens/Computadores/pc.webp" alt="">
+                    <h3>Valor R$1.275,40</h3>
+                    <p><strong>Descrição:</strong>Intel Core I5 16gb Ssd...</p>
+                    <button><strong>Comprar Agora!</strong></button>
+            </div>
+            <div class="column-a">
+                <h2>PC Gamer Completo</h2>
+                    <img class="img" src="assets/imagens/Computadores/pc.1.png" alt="">
+                    <h3>Valor R$3.009,90</h3>
+                    <p><strong>Descrição:</strong>+ Cadeira, Neologic - NLI83469</p>
+                    <button><strong>Comprar Agora!</strong></button>
+            </div>
+            <div class="column-a">
+                <h2>Acer Nitro 5</h2>
+                <img class="img" src="assets/imagens/Computadores/nitro.1.webp" alt="">
+                <h3>Valor R$5.224,05</h3>
+                <p><strong>Descrição:</strong>Ryzen 5,8GB,RTX 3050...</p>
+                <button><strong>Comprar Agora!</strong></button>
+            </div>
+            <div class="column-a">
+                <h2>Notebook Legion Slim 5i</h2>
+                    <img class="img" src="assets/imagens/Computadores/not.avif" alt="">
+                    <h3>Valor R$6.687,99</h3>
+                    <p><strong>Descrição:</strong> Produto de qualidade</p>
+                    <button><strong>Comprar Agora!</strong></button>
+            </div>
+            <div class="column-a">
+                <h2>Computador Completo</h2>
+                    <img class="img" src="assets/imagens/Computadores/pc.webp" alt="">
+                    <h3>Valor R$1.275,40</h3>
+                    <p><strong>Descrição:</strong>Intel Core I5 16gb...</p>
+                    <button><strong>Comprar Agora!</strong></button>
+            </div>
+            <div class="column-a">
+                <h2>PC Gamer Completo</h2>
+                    <img class="img" src="assets/imagens/Computadores/pc.1.png" alt="">
+                    <h3>Valor R$3.009,90</h3>
+                    <p><strong>Descrição:</strong>+ Cadeira, Neologic - NLI83469</p>
+                    <button><strong>Comprar Agora!</strong></button>
+            </div>
+            <div class="column-a">
+                <h2>Acer Nitro 5</h2>
+                <img class="img" src="assets/imagens/Computadores/nitro.1.webp" alt="">
+                <h3>Valor R$5.224,05</h3>
+                <p><strong>Descrição:</strong>Ryzen 5,8GB,RTX 3050...</p>
+                <button><strong>Comprar Agora!</strong></button>
+            </div>
+        </section>
+    </main>
+    <footer class="rodape">
+        <div class="container_rodape">
+            <div class="box-rodape">
+                <h3>Siga-nos: </h3>
+                <img src="assets/imagens/facebook.png" alt="">
+                <img src="assets/imagens/instagram.png" alt="">
+                <img src="assets/imagens/twitter.png" alt="">
+            </div>
+
+            <div class="box-rodape">
+                <img src="assets/imagens/Logo certa_preview_rev_1 (1).png" width="140">
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Todos os direitos reservados a RDR_Venda.com</p>
+        </div>
+
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

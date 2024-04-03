@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/estilo.css">
+
+
+    <title>RDR Vendas</title>
+</head>
+
+<body>
+    <header class="inicial inicio-index">
+        <div>
+            <img src="assets/imagens/logo.png" alt="">
+        </div>
+
+        <div class="botoes botoes-inicio">
+            <button><a href="index.html">Início</a></button>
+            <button> <a href="index.html#acessar-plano">Planos</a></button>
+            <button><a href="">Saiba mais</a></button>
+        </div>
+
+        <div class="botao-inicial">
+            <button class="btn-login" id="logar" onclick="login()">Login</button>
+
+            <button class="btn-cad" id="cadastrar" onclick="cadastro()">Nova conta</button>
+        </div>
+    </header>
+
+    <section class="fotos" >
+
+        <h2><strong>Produtos em destaque</strong></h2>
+        <div class="imagens-prod">
+            <a href="login.html"><img src="assets/imagens/fox.jpg" height="250px" alt=""></a>
+            <h4>VolksWagem fox</h4>
+        </div>
+
+        <div class="imagens-prod">
+            <a href="login.html"><img src="assets/imagens/vectra.jpg" height="250" alt=""></a>
+            <h4>Chevrolet Vectra</h4>
+        </div>
+
+        <div class="imagens-prod">
+            <a href="login.html"><img src="assets/imagens/clio.jpg" height="250" alt=""></a>
+            <h4>Renault Clio</h4>
+        </div>
+
+        <div class="imagens-prod">
+            <a href="login.html"><img src="assets/imagens/nitro.1.webp" height="250" alt=""></a>
+            <h4>Notbook nitro 5</h4>
+        </div>
+
+        <div class="imagens-prod">
+            <a href="login.html"><img src="assets/imagens/monitor.jpg" height="250" alt=""></a>
+            <h4>Monitor 24p</h4>
+        </div>
+
+    </section>
+
+    <section class="introducao" >
+
+        <div class="tudo">
+            <div class="texto">
+                <p>Quer comprar sem sair de casa e sem perder tempo com filas? Crie sua conta ou faça login em nossa loja virtual
+                        e
+                        compre todos os nossos produtos em poucos cliques! Aproveite também nossas promoções e cupons de
+                        descontos exclusivos.</p>
+            </div>
+
+            <div class="texto">
+
+                <p>Já viu todas as novidades da nossa loja virtual? É uma oferta melhor que a outra! Acesse agora e
+                    compre com cartão de crédito, Pix ou boleto. E não se esqueça de aproveitar o frete grátis e o
+                    desconto de 5% no Pix!</p>
+            </div>
+
+            <div class="texto">
+                <p>
+                    Se você tem empresa ou microempresa venha anuciar seus produtos no melhor site de vendas do Brasil,
+                    aqui temos os melhores planos para voce empreendedor.
+                    E para você cliente que também quer vender, temos o plano PF que se torma mais acessivel para você
+                    cliente.
+                </p>
+            </div>
+
+            
+
+        </div>
+
+
+    </section>
+
+    <section class="planos" id="acessar-plano">
+
+        <div class="plano" >
+            <h3>Plano premium PJ</h3>
+
+            <h4>R$ 500,00 mês</h4>
+
+            <ul>
+                <li><i class="bi bi-check-lg"></i> Você podera anunciar ate 50 produtos</li>
+                <li><i class="bi bi-check-lg"></i> Seus produtos serão destacados em primeiros quando pesquisados</li>
+                <li><i class="bi bi-check-lg"></i> Você poderá acompanhar quantas pessoas entraram para ver seu produto
+                </li>
+                <li><i class="bi bi-check-lg"></i> Para cada compra, o dinheiro cai no dia seguinte, independente se for
+                    cartão ou boleto</li>
+            </ul>
+
+            <button onclick="login()">Adquirir</button>
+        </div>
+
+        <div class="plano">
+            <h3>Plano básico PJ</h3>
+
+            <h4>R$ 200,00 mês</h4>
+
+            <ul>
+                <li><i class="bi bi-check-lg"></i> Você poder anunciar ate 25 produtos</li>
+                <li><i class="bi bi-check-lg"></i> Seus produtos serão destacados em primeiros quando pesquisados</li>
+                <li><i class="bi bi-check-lg"></i> Para cada compra, o dinheiro cai conforme a forma de pagamento do
+                    cliente</li>
+            </ul>
+
+            <button onclick="login()">Adiquirir</button>
+        </div>
+
+        <div class="plano">
+            <h3>Plano PF</h3>
+
+            <h4>R$ 2,00 por anúncio</h4>
+            <p> + 10% do valor do produto</p>
+
+            <ul>
+                <li><i class="bi bi-check-lg"></i> Você poder anunciar quantos produtos quiser</li>
+                <li><i class="bi bi-check-lg"></i> Para cada compra, o dinheiro cai conforme a forma de pagamento do
+                    cliente</li>
+            </ul>
+
+            <button onclick="login()">Adiquirir</button>
+        </div>
+
+
+
+    </section>
+
+
+
+    <footer class="rodape">
+        <div class="container_rodape">
+            <div class="box-rodape">
+                <h3>Siga-nos: </h3>
+                <img src="assets/imagens/facebook.png" alt="">
+                <img src="assets/imagens/instagram.png" alt="">
+                <img src="assets/imagens/twitter.png" alt="">
+            </div>
+
+            <div class="box-rodape">
+                <img src="assets/imagens/logo.png" width="140">
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Todos os direitos reservados a RDR_Venda.com</p>
+        </div>
+
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>

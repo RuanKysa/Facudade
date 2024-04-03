@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/css/estilo.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="shortcut icon" type="imagex/png" href="assets/imagens/Logo certa.svg">
+    <title>RDR Vendas</title>
+</head>
+
+<body>
+    <header class="inicial inicio-index">
+        <div>
+            <img src="assets/imagens/logo.png" alt="">
+        </div>
+
+        <div class="botoes botoes-inicio">
+            <button onclick="voltar()">Início</button>
+            <button><a href="index.html#acessar-plano">Planos</a></button>
+            <button>Saiba mais</button>
+        </div>
+
+    </header>
+
+    <section class="section-log">
+        <div class="centro">
+            <div class="acesso">
+                <button class="btn-login login-posi" id="logar" onclick="login()">Login</button>
+                <button class="btn-cad cad-posi-login" id="cadastrar" onclick="cadastro()">Nova conta</button>
+            </div>
+            <div class="informacoes">
+                <div class="acessar">
+                    <p>Acessar conta</p>
+                    <input class="email" id="usuario" type="text" value="" placeholder="Email" required />
+                    <input class="senha" id="senha" type="password" value="" placeholder="Senha" required />
+                    <i class="bi bi-eye-slash-fill icone" id="btn-senha" onclick="mostrarSenha()"></i>
+                </div>
+                <a href="#">Esqueceu sua senha?</a>
+                <button class="login-btn" onclick="" id="botao-log">Login <i class="bi bi-arrow-right"></i> </button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="rodape">
+        <div class="container_rodape">
+            <div class="box-rodape">
+                <h3>Siga-nos: </h3>
+                <img src="assets/imagens/facebook.png" alt="">
+                <img src="assets/imagens/instagram.png" alt="">
+                <img src="assets/imagens/twitter.png" alt="">
+            </div>
+
+            <div class="box-rodape">
+                <img src="assets/imagens/logo.png" width="140">
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Todos os direitos reservados a RDR_Venda.com</p>
+        </div>
+
+    </footer>
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/css/estilo.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="shortcut icon" type="imagex/png" href="assets/imagens/Logo certa_sem fundo.png">
+
+    <title>RDR Vendas</title>
+</head>
+
+<body class="cadastro">
+
+    <header class="inicial inicio-index">
+        <div>
+            <img src="assets/imagens/logo.png" alt="">
+        </div>
+
+        <div class="botoes botoes-inicio">
+            <button onclick="voltar()">Início</button>
+            <button><a href="index.html#acessar-plano">Planos</a></button>
+            <button>Saiba mais</button>
+        </div>
+
+    </header>
+
+    <section class="section-cad">
+        <div class="centro-cad">
+            <div class="acesso">
+                <button class="btn-login login-posi-cad" id="logar" onclick="login()">Login</button>
+                <button class="btn-cad cad-posi" id="cadastrar" onclick="cadastro()">Nova conta</button>
+            </div>
+            <div class="informacoes-cad">
+                <div class="acessar-cad">
+                    <p>Nova conta</p>
+                    <input class="nome" type="text" name="nome" value="" placeholder="Nome e Sobrenome" required />
+                    <input class="email" type="text" name="emial" value="" placeholder="Email" required />
+                    <input class="telefone" type="char" name="telefone" value="" placeholder="Telefone" required />
+                    <input class="Documento" type="int" name="Documento" value="" placeholder="CPF/CNPJ" required />
+                    <input class="senha-cad" id="senha" type="password" name="nome" value="" placeholder="Senha"
+                        required />
+                    <i class="bi bi-eye-slash-fill icone" id="btn-senha" onclick="mostrarSenha()"></i>
+                    <input class="repetir-senha" type="password" name="nome" value="" placeholder="Repetir Senha"
+                        required />
+                    <div class="requisitos">
+                        <p>Sua senha deve conter:</p>
+                        <ul>
+                            <li> <i class="bi bi-x-square-fill"> Pelo menos 8 caracteres</i> </li>
+                            <li> <i class="bi bi-x-square-fill"> Pelo menos 1 caractere especial</i></li>
+                            <li> <i class="bi bi-x-square-fill"> Pelo menos 1 número</i></li>
+                            <li> <i class="bi bi-x-square-fill"> Pelo menos 1 Letra maiúscula</i></li>
+                            <li> <i class="bi bi-x-square-fill"> Pelo menos 1 letra minúscula</i></li>
+                            <li> <i class="bi bi-x-square-fill"> As senhas digitadas conferem</i></li>
+                        </ul>
+                    </div>
+                    <button class="finalizar" id="finalizar-botao" onclick="finalizar()">Finalizar Cadastro <i
+                            class="bi bi-arrow-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="rodape">
+        <div class="container_rodape">
+            <div class="box-rodape">
+                <h3>Siga-nos: </h3>
+                <img src="assets/imagens/facebook.png" alt="">
+                <img src="assets/imagens/instagram.png" alt="">
+                <img src="assets/imagens/twitter.png" alt="">
+            </div>
+
+            <div class="box-rodape">
+                <img src="assets/imagens/logo.png" width="140">
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Todos os direitos reservados a RDR_Venda.com</p>
+        </div>
+
+    </footer>
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
